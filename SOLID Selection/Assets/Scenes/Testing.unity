@@ -6860,6 +6860,7 @@ GameObject:
   - component: {fileID: 1175025462}
   - component: {fileID: 1175025461}
   - component: {fileID: 1175025464}
+  - component: {fileID: 1175025465}
   m_Layer: 0
   m_Name: Selection Responses
   m_TagString: Untagged
@@ -6908,6 +6909,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6637af74def052740a2fcbced6d14e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1175025465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175025460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7558db2a69031244bb425267ecf2b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaler: 1.5
 --- !u!1001 &1179100218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7450,7 +7464,7 @@ GameObject:
   - component: {fileID: 1358631838}
   - component: {fileID: 1358631841}
   m_Layer: 0
-  m_Name: Composite Selection Manager
+  m_Name: Selection Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11539,8 +11553,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 697342331}
   - {fileID: 1358631840}
-  - {fileID: 1175025462}
   - {fileID: 1471170561}
+  - {fileID: 1175025462}
   - {fileID: 1332310609}
   - {fileID: 29916576}
   - {fileID: 1781376529}
